@@ -143,3 +143,19 @@ print(type(s))
 s=set()
 print(s)
 print(type(s))
+
+#frozenset--immutable
+
+s={10,20,30,40}
+print(s)
+print(type(s))
+fs=frozenset(s)
+print(fs)
+print(type(fs))
+
+#dictionary datatype---mutable
+
+d={101:"python",102:"Java",103:"DA",103:"Web","a":10,"b":20,"fname":"bochkari"}
+print(d)
+print(type(d))
+print(d['fname'])
