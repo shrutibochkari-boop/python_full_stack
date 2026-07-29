@@ -1,10 +1,7 @@
 
-# n1=int(input("Enter a number1:"))
-# n2=int(input("Enter a number2:"))
-# print("Addition:",n1+n2)
-# print("Substraction",n1-n2)
-# print("Multiplication:",n1*n2)
-# print("Division:",n1/n2)
-# print("Floor Division:",n1//n2)
-# print("Remainder:",n1%n2)
-# print("Exponentation:",n1**n2)
+# num = int(input("Enter a number: "))
+
+# if num >= 0:
+#     print("Positive Number")
+# else:
+#     print("Negative Number")
