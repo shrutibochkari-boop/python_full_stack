@@ -33,10 +33,9 @@ print("Employee Married?")
 a = int(input("Enter first number: "))
 b = int(input("Enter second number: "))
 
-max_num = b
+max_num=b
 if a > b:
     max_num = a
-
 print("Maximum number is:", max_num)
 
 #Accept a number and print absolute of that number
